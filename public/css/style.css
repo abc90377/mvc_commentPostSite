@@ -1,0 +1,67 @@
+#newpost {
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80px;
+    width: 500px;
+    border: black 1px solid;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow-y: scroll;
+}
+
+.editpost {
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80px;
+    min-height: 80px;
+    max-height: 256px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(240, 232, 232);
+}
+
+.navbar {
+    background-color: rgb(240, 232, 232, 0.7);
+}
+
+.postcard {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.liked {
+    color: crimson;
+}
+
+.highlight {
+    color: crimson;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.iButton:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+
+#loadMore:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.nowBar {
+    color: crimson;
+    font-weight: 900;
+}
+.nowBar:hover {
+    color: crimson;
+}
